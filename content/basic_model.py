@@ -261,7 +261,7 @@ def service(identifier, env, args):
     Params:
     ------
     identifier: int
-        A unique identifer for this caller
+        A unique identifier for this caller
 
     env: simpy.Environment
         The current environent the simulation is running in
