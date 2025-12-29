@@ -142,7 +142,7 @@ class Experiment:
     An Experiment:
     1. Contains a list of parameters that can be left as defaults or varied
     2. Provides a place for the experimentor to record results of a run 
-    3. Controls the set & streams of psuedo random numbers used in a run.
+    3. Controls the set & streams of pseudo random numbers used in a run.
     """
 
     def __init__(
