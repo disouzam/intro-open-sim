@@ -264,7 +264,7 @@ def service(identifier, env, args):
         A unique identifier for this caller
 
     env: simpy.Environment
-        The current environent the simulation is running in
+        The current environment the simulation is running in
         We use this to pause and restart the process after a delay.
 
     args: Experiment
