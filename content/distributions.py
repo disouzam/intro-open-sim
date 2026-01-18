@@ -1,5 +1,5 @@
 """
-Distribution and utility classes avilable to these examples.
+Distribution and utility classes available to these examples.
 """
 
 import numpy as np
