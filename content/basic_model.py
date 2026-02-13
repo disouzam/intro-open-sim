@@ -142,7 +142,7 @@ class Experiment:
     An Experiment:
     1. Contains a list of parameters that can be left as defaults or varied
     2. Provides a place for the experimentor to record results of a run 
-    3. Controls the set & streams of psuedo random numbers used in a run.
+    3. Controls the set & streams of pseudo random numbers used in a run.
     """
 
     def __init__(
@@ -261,10 +261,10 @@ def service(identifier, env, args):
     Params:
     ------
     identifier: int
-        A unique identifer for this caller
+        A unique identifier for this caller
 
     env: simpy.Environment
-        The current environent the simulation is running in
+        The current environment the simulation is running in
         We use this to pause and restart the process after a delay.
 
     args: Experiment
